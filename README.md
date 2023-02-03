@@ -1,3 +1,31 @@
+# About this project
+This project demomstrates how SVG files cannot be imported into React by means of component.
+
+Take "cart.svg" for example, the localhost:3000 replied with the error message:
+
+"Compiled with problems:X
+
+ERROR in ./src/icons/cart.svg
+
+Module build failed (from ./node_modules/@svgr/webpack/lib/index.js):
+Error: Expected closing tag </head> to match opening tag <link> (170:8). If this is valid SVG, it's probably a bug in svg-parser. Please raise an issue at https://github.com/Rich-Harris/svg-parser/issues – thanks!"
+
+The rest of the SVG files reply the same message. 
+
+Should you know (1)The reason why SVG files cannot be imnported (2)The successful method to import SVG files into React under all circumstances, please PM me, thank you very much.
+
+# 關於本 Repo
+本 Repo 展示 SVG 檔案無法以元件的方式引入 React 的狀況。 以 cart.svg 為例， localhost:3000 會回傳以下訊息：
+
+"Compiled with problems:X
+
+ERROR in ./src/icons/cart.svg
+
+Module build failed (from ./node_modules/@svgr/webpack/lib/index.js):
+Error: Expected closing tag </head> to match opening tag <link> (170:8). If this is valid SVG, it's probably a bug in svg-parser. Please raise an issue at https://github.com/Rich-Harris/svg-parser/issues – thanks!"
+
+其餘 SVG 檔案也會回傳一樣的訊息。若能知道原因，以及能讓 SVG 檔成功引入 React 的方法，請不吝告知，感謝。
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
